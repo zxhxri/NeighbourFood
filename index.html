@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>NeighbourFood</title>
+    <title>Neighbour Food</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
     <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v1.1.0/modern-normalize.min.css" rel="stylesheet">
@@ -22,10 +22,10 @@
 }
         
         html{
-            color: white;
+            color: green;
 /*            margin: 20px;*/
             padding: 30px;
-            background-color: black;
+            background-color: white;
         }
         
         body{
@@ -61,11 +61,49 @@
             z-index: 999999;
             right: 8%;
             top: 10%;
+            mix-blend-mode: multiply;
+            pointer-events: none;
+        }
+        
+          #food2{
+            position: absolute;
+            z-index: 999999;
+            right: 25%;
+            top: 75%;
+            mix-blend-mode: multiply;
+            pointer-events: none;
+        }
+        
+          #food3{
+            position: absolute;
+            z-index: 999999;
+            left: 25%;
+            top: 180%;
+            mix-blend-mode: multiply;
+            pointer-events: none;
+        }
+        
+            #food4{
+            position: absolute;
+            z-index: 999999;
+            left: 45%;
+            top: 240%;
+            mix-blend-mode: multiply;
+            pointer-events: none;
+        }
+        
+           #food5{
+            position: absolute;
+            z-index: 999999;
+            right: 0%;
+            top: 414%;
+            mix-blend-mode: multiply;
+            pointer-events: none;
         }
         
     </style>
     <header>
-        <h1>Кулинарно изследване на блокови кооперации</h1>
+        <h1>NeighbourFood: Кулинарно изследване на блокови кооперации</h1>
     </header>
     <p>Бул. Янко Сакъзов №17, 1527 София, България</p>
     
@@ -93,7 +131,13 @@
 		   	   
 		   	</audio>
         
-        <img id="food1" src="img/food1.gif" width="10%"/>
+        <a href="event.html">Снимки от събитието</a>
+        
+        <img id="food1" src="img/neighbourfood5.gif" width="20%"/>
+        <img id="food2" src="img/neighbourfood1.gif" width="20%"/>
+        <img id="food3" src="img/neighbourfood2.gif" width="20%"/>
+        <img id="food4" src="img/neighbourfood3.gif" width="20%"/>
+        <img id="food5" src="img/neighbourfood4.gif" width="20%"/>
         
           <div class="card" id="card1">
     <img src="img/back1.png" width="100%" alt="Card Back">
@@ -125,6 +169,11 @@
     <img src="img/front6.png" class="img-top" width="100%" alt="Card Front">
     </div>
         
+         <div class="card" id="card7">
+    <img src="img/back1.png" width="100%" alt="Card Back">
+    <img src="img/front7.png" class="img-top" width="100%" alt="Card Front">
+    </div>
+        
         <p>Участници по азбучен ред:<br>
         Васил Владимиров (организатор)<br>
             Захари Димитров (уеб и графичен дизайн)<br>
@@ -141,7 +190,7 @@
         <style>
             .cls-1,
             .cls-2 {
-                fill: #fff;
+                fill: green;
             }
 
             .cls-2 {
